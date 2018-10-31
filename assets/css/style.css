@@ -5,6 +5,75 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+nav {
+    border-bottom: 2px solid #808080;
+}
+
+nav p {
+    font-size: 35px;
+    background: #ffa500;
+    padding: 1vw 3vh;
+}
+
+/*End Nav Bar*/
+
+main {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    align-content: center;
+    margin: 0 10%;
+    background: #fff;
+    margin-top: 5vw;
+    margin-bottom: 10vw;
+    padding: 0 10px 5px 10px;
+}
+
+.container .card-group .card .card-title, .portfolio.card #card-title {
+    margin-top: .75rem;
+    margin-bottom: 0rem;
+    padding-left: 2vh; 
+    color: #ffa500;
+    font-size: 35px;
+    border-bottom: 1px solid #808080;
+}
+
+main .about.card-group {
+    padding: 1vw 1vh;
+}
+
+main .card-group .card {
+    border: none;
+}
+
+main .card-group .card img {
+    border-radius: none;
+}
+/*End About/Main Content*/
+
+.portfolio.card {
+    border: none;
+}
+
+.portfolio.card #card-title {
+    margin-bottom: 1vw;
+}
+
+#company-title {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #ffa500;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 70%;
+    opacity: .8;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*End Portfolio*/
+
 .contact {
 padding-top: 50px;
 }

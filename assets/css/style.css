@@ -90,7 +90,10 @@ main .card-group .card img {
 
 .contact .card .input-group .input-group-prepend .form-control {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    
+}
+
+.contact .card .btn.btn-warning.col-md-1 {
+ margin-top: 1vw;
 }
 /*End Contact*/
 
